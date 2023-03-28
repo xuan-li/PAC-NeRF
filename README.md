@@ -1,5 +1,5 @@
 # PAC-NeRF: Physics Augmented Continuum Neural Radiance Fields for Geometry-Agnostic System Identification (ICLR 2023 Notable-Top-25%)
-### [[OpenReview]](https://openreview.net/forum?id=tVkrbkz42vc)[[Demo]](https://sites.google.com/view/pac-nerf)[[Dataset]](https://drive.google.com/drive/folders/1KuIq7rrAANzTrj4PzYYdwEaDZVPY6lO3?usp=share_link)
+### [[OpenReview]](https://openreview.net/forum?id=tVkrbkz42vc)[[Demo]](https://xuan-li.github.io/PAC-NeRF)[[Dataset]](https://drive.google.com/drive/folders/1KuIq7rrAANzTrj4PzYYdwEaDZVPY6lO3?usp=share_link)
 
 PAC-NeRF (Physics Augmented Continuum Neural Radiance Fields) is a  novel approach to estimating both the unknown geometry and physical parameters of highly dynamic objects from multi-view videos. We design PAC-NeRF to only ever produce physically plausible states by enforcing the neural radiance field to follow the conservation laws of continuum mechanics.
 
