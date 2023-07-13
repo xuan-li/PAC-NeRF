@@ -65,4 +65,6 @@ You can download and view the groundtruth particle sequence `simulation_data.zip
 
 
 
+## Star History
 
+[![Star History Chart](https://api.star-history.com/svg?repos=xuan-li/PAC-NeRF&type=Date)](https://star-history.com/#xuan-li/PAC-NeRF&Date)
