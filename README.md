@@ -1,5 +1,5 @@
 # PAC-NeRF: Physics Augmented Continuum Neural Radiance Fields for Geometry-Agnostic System Identification (ICLR 2023 Notable-Top-25%)
-### [[OpenReview]](https://openreview.net/forum?id=tVkrbkz42vc)[[Demo]](https://xuan-li.github.io/PAC-NeRF)[[Dataset]](https://drive.google.com/drive/folders/1KuIq7rrAANzTrj4PzYYdwEaDZVPY6lO3?usp=share_link)
+### [[OpenReview]](https://openreview.net/forum?id=tVkrbkz42vc)[[Demo]](https://xuan-li.github.io/PAC-NeRF)[[Dataset]](https://ucla.box.com/s/039jwttn9ibac73h3kit5vsuiepy7j4y)
 
 PAC-NeRF (Physics Augmented Continuum Neural Radiance Fields) is a  novel approach to estimating both the unknown geometry and physical parameters of highly dynamic objects from multi-view videos. We design PAC-NeRF to only ever produce physically plausible states by enforcing the neural radiance field to follow the conservation laws of continuum mechanics.
 
@@ -19,7 +19,7 @@ pip install -r requirements.txt
 ```
 
 ## Download Dataset
-Download `data.zip` from this [Google Drive](https://drive.google.com/drive/folders/1KuIq7rrAANzTrj4PzYYdwEaDZVPY6lO3?usp=share_link). Unzip it to the root dir.
+Download `data.zip` from this [UCLA Box](https://ucla.box.com/s/039jwttn9ibac73h3kit5vsuiepy7j4y). Unzip it to the root dir.
 
 The structure should look like the following:
 ```
@@ -32,7 +32,7 @@ The structure should look like the following:
 
 
 ## Download Pre-trained [BackgroundMatting](https://github.com/PeterL1n/BackgroundMattingV2) Model Weights
-Create `checkpoint` folder under the root dir. Download `pytorch_resnet101.pth` from the same [drive](https://drive.google.com/drive/folders/1KuIq7rrAANzTrj4PzYYdwEaDZVPY6lO3?usp=share_link) to `checkpoint` folder.
+Create `checkpoint` folder under the root dir. Download `pytorch_resnet101.pth` from the same [drive](https://ucla.box.com/s/039jwttn9ibac73h3kit5vsuiepy7j4y) to `checkpoint` folder.
 
 The structure should look like the following:
 ```
@@ -59,7 +59,7 @@ python test.py --config=configs/torus.py --num-frame=14 --cam-id=0
 <div align="center"><img src="img/torus.gif" alt="torus" width="300"/></div>
 
 ## (Optional) Groundtruth Particle Data
-You can download and view the groundtruth particle sequence `simulation_data.zip` from the same [drive](https://drive.google.com/drive/folders/1KuIq7rrAANzTrj4PzYYdwEaDZVPY6lO3?usp=share_link).
+You can download and view the groundtruth particle sequence `simulation_data.zip` from the same [drive](https://ucla.box.com/s/039jwttn9ibac73h3kit5vsuiepy7j4y).
 
 
 
